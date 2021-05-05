@@ -45,7 +45,7 @@ function DataTable() {
                         <td>Harry Allen</td>
                         <td>34</td>
                         <td>80</td>
-                        <td>1017.00</td>
+                        <td>1  017.00</td>
                     </tr>
                 </tbody>
             </table>
