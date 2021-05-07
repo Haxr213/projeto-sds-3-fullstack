@@ -18,11 +18,6 @@ public class SellerService {
 	
 	public List<SellerDTO> findAll() {
 		List<Seller> result = repository.findAll();
-		/*Retorna a lista result so que em formato DTO, formando uma nova colecao
-		 * convertendo todo o x da lista original, e o tolist converte para lista novamente
-		 */
 		return result.stream().map(x -> new SellerDTO(x)).collect(Collectors.toList());
 	}
-	
-
 }
